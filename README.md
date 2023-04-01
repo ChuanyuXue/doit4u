@@ -1,5 +1,5 @@
-<div style="display:flex;align-items:center;">
-<h1 style="display:inline-block;margin-right:10px;">DoIt4U</h1>
+<div style="display:flex;align-items:center;justify-content:space-between;">
+<h1 style="display:inline-block;">DoIt4U</h1>
 <img src="logo.png" alt="alt text" width="50"/>
 </div>
 
