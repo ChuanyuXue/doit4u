@@ -5,7 +5,7 @@ import pandas as pd
 doit = DoIt4U()
 
 # Core functionality test
-assert m._convert_str_to_code("def add(a, b): return a + b")(1, 2) == 3
+assert doit._convert_str_to_code("def add(a, b): return a + b")(1, 2) == 3
 
 # Example #1: Factorial function
 print("---- Example #1: Factorial function ----")
