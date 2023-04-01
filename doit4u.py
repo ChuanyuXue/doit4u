@@ -11,7 +11,7 @@ INSTRUCTIONS = "\n".join([
 ])
 
 
-class PyHybrid:
+class DoIt4U:
 
     def __init__(self, model="text-davinci-003", **kwargs):
         check_args(kwargs)
@@ -21,7 +21,7 @@ class PyHybrid:
         self.model_kwargs = complete_args(kwargs)
         self.funcs = {}
 
-    def hybrid(self, prompt: str):
+    def forme(self, prompt: str):
         func_key = hash(prompt)
         if func_key in self.funcs:
             return self.funcs[func_key]

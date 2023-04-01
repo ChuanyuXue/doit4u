@@ -1,8 +1,8 @@
-from pyhybrid import PyHybrid
+from doit4u import DoIt4U
 import time
 import pandas as pd
 
-m = PyHybrid()
+doit = DoIt4U()
 
 # Core functionality test
 assert m._convert_str_to_code("def add(a, b): return a + b")(1, 2) == 3
@@ -15,7 +15,7 @@ print("---- Example #1: Factorial function ----")
 #     + m.instructions)
 
 print(
-    m.hybrid(
+    doit.forme(
         "Write me a factorial function that takes a number as input and returns the factorial of that number."
     )(5))
 
@@ -25,7 +25,7 @@ time.sleep(1)
 for i in range(1, 10):
     print(
         "Radius: ", i, "Area:",
-        m.hybrid(
+        doit.forme(
             "Write me a function that takes the radius of a circle as input and returns the area of the circle."
         )(i))
 
@@ -40,7 +40,7 @@ df = pd.DataFrame({
 })
 
 print(
-    m.hybrid(
+    doit.forme(
         ''' Write me a function that takes a dataframe and a list of column names as input,
         Then aggregate the dataframe by the input list of names,
         Then get the the mean and maximum of the other columns by group as results,
