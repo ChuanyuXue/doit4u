@@ -28,6 +28,7 @@ Please note the generated functions might not always be correct, efficient, or s
 Here are some of my test results:
 
 **Example #1: Factorial function**
+
 ```
 print(
     doit.forme(
@@ -40,6 +41,7 @@ print(
 ```
 
 **Example #2: Calculate the area of a circle**
+
 ```
 for i in range(1, 10):
     print(
@@ -87,7 +89,6 @@ print(
 # 1  3  b  3.0   3 -3.0  -3
 # 0  1  a  1.5   2 -1.5  -1
 ```
-
 
 ## Why?
 
