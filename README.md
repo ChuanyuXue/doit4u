@@ -92,7 +92,7 @@ print(
 
 ## Why?
 
-The motivation of "natural language hybrid programming" is I realize it may not be practical to expect ChatGPT to write an entire program for you, but it can excel at crafting small, isolated functions. But again, this is only a prototype made by simple Python script without any optimization, don't count on let it really do it for you.
+The motivation of "natural language hybrid programming" is I realize it may not be practical to expect ChatGPT to write an entire program for you, but it can excel at crafting small, isolated functions. But again, this is only a prototype made by simple Python script without any optimization, don't count on it really do it for you.
 
 
 
