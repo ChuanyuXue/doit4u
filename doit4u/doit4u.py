@@ -20,7 +20,7 @@ class DoIt4U:
         self.model_kwargs = complete_args(kwargs)
         self.funcs = {}
 
-    def forme(self, prompt: str):
+    def forme(self, prompt: str) -> callable:
         func_key = hash(prompt)
         if func_key in self.funcs:
             return self.funcs[func_key]
