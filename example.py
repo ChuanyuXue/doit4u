@@ -2,17 +2,11 @@ from doit4u import DoIt4U
 import time
 import pandas as pd
 
+# Create the agent
 doit = DoIt4U()
-
-# Core functionality test
-assert doit._convert_str_to_code("def add(a, b): return a + b")(1, 2) == 3
 
 # Example #1: Factorial function
 print("---- Example #1: Factorial function ----")
-
-# print(
-#     "Write me a factorial function that takes a number as input and returns the factorial of that number."
-#     + m.instructions)
 
 print(
     doit.forme(

@@ -12,7 +12,6 @@ INSTRUCTIONS = "\n".join([
 
 
 class DoIt4U:
-
     def __init__(self, model="text-davinci-003", **kwargs):
         check_args(kwargs)
 
